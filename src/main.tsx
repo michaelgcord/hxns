@@ -3,8 +3,11 @@ import { createRoot } from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 import Timeline from './pages/Timeline'
+import Discography from './pages/Discography'
+import About from './pages/About'
+import Experiences from './pages/Experiences'
 import './index.css'
-// import App from './App.tsx'
+import SyncsAds from './pages/SyncsAds'
 
 const router = createBrowserRouter([
 	{
@@ -15,22 +18,22 @@ const router = createBrowserRouter([
 		path: '/timeline',
 		element: <Timeline />
 	},
-	// {
-	// 	path: '/releases',
-	// 	element: <Releases />
-	// },
-	// {
-	// 	path: '/about',
-	// 	element: <About />
-	// },
-	// {
-	// 	path: '/events',
-	// 	element: <Events />
-	// },
-	// {
-	// 	path: '/misc-blog',
-	// 	element: <MiscBlog />
-	// },		
+	{
+		path: '/discography',
+		element: <Discography />
+	},
+	{
+		path: '/about',
+		element: <About />
+	},
+	{
+		path: '/experiences',
+		element: <Experiences />
+	},
+	{
+		path: '/syncs-ads',
+		element: <SyncsAds />
+	},		
 ])
 
 createRoot(document.getElementById('root')!).render(
