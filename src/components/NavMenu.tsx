@@ -26,7 +26,7 @@ const NavMenu = () => {
                         <Link to="/experiences">Experiences</Link>
                     </div>
                     <div className='nav-item'>
-                        <Link to="/syncs-ads">Syncs</Link>
+                        <Link to="/syncs-ads">Syncs / Ads</Link>
                     </div>                    
                   </div>
                 : <></>

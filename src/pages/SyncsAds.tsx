@@ -1,7 +1,11 @@
+import NavMenu from "../components/NavMenu"
+
 const SyncsAds = () => {
     return (
-        <div>
-            Syncs Ads
+        <div className="main-container">
+            <NavMenu/>
+            <div style={{fontSize: '48px', fontWeight: '700', margin: '20px 0 30px'}}>Syncs / Ads</div>            
+            
         </div>
     )
 }
