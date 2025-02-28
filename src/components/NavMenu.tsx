@@ -17,7 +17,7 @@ const NavMenu = () => {
                         <Link to="/timeline">Timeline</Link>
                     </div>
                     <div className='nav-item'>
-                        <Link to="/releases">Discography</Link>
+                        <Link to="/discography">Discography</Link>
                     </div>
                     <div className='nav-item'>
                         <Link to="/about">About</Link>
