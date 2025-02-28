@@ -6,7 +6,7 @@ const NavMenu = () => {
     const [isOpen, setOpen] = useState(false)
 
     return (
-        <div style={{position: 'absolute', top: '5%', left: '5%', zIndex: '5'}}>
+        <div style={{position: 'fixed', top: '5%', left: '5%', zIndex: '5'}}>
             <Hamburger size={25} toggled={isOpen} toggle={setOpen}></Hamburger>
             {isOpen
                 ? <div style={{height: '140px', width: '110px', border: 'solid black 1px', padding: '8px', backgroundColor: 'white'}}>

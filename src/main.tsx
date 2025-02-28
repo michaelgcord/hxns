@@ -8,6 +8,7 @@ import About from './pages/About'
 import Experiences from './pages/Experiences'
 import './index.css'
 import SyncsAds from './pages/SyncsAds'
+import { Theme } from "@radix-ui/themes";
 
 const router = createBrowserRouter([
 	{
@@ -38,6 +39,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+	<Theme>
+	    <RouterProvider router={router}/>
+	</Theme>
   </StrictMode>,
 )
