@@ -11,7 +11,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://player.vimeo.com/video/672501008?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%"  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Youth in Technology Animated Spots"></iframe>,    
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Syncs/Ads"],
+            show_date: null
         },
         {
             title: "whatsitgonnabe",
@@ -19,7 +20,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" frameBorder="0" width="100%" scrolling="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/535492533&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Porsche - Drive2Extremes: Behind the Scenes #2 - The Driving Force",
@@ -27,16 +29,17 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" width="100%" src="https://www.youtube.com/embed/KqB4dVfbJFs?si=FjCyOAOsQCqvXgh_" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>,
             height: 234,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "JEMS!, Elujay & J.Robb - STORMBLUS",
             date: "September 20, 2024",
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/45CzTjXCs6MtH5oEFNAu2e?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
-            
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Siaira Shawn - Different",
@@ -44,7 +47,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/6p9vIo0rUf8P6ZDVsn5B0A?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,           
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Siaira Shawn - Sleep Better",
@@ -52,7 +56,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/2lpffYbr7naUYD68eQBilf?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Bazzi - Somewhere In Between",
@@ -60,7 +65,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/7LBq9YOFtOoSeGFtlrxHEN?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Adanna Duru - Ur A Bitch",
@@ -68,7 +74,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/4aZu2npZvVghVTnPxD2uWe?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Cautious Clay - Fishtown",
@@ -76,7 +83,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/3wi4hGGGZZYvkC0SRTU8cq?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Cautious Clay - Burning Up Slow",
@@ -84,7 +92,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/7FKt5TmdwOaeBGJcejChUw?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Elujay & HXNS - 1080P",
@@ -92,7 +101,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/2HauR0k2KEwPHKE5HTXQKY?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 233,
             description: "Featured in Hulu’s Reasonable Doubt & Starz’s Run the World",
-            dots: ["Discography", "Syncs/Ads"]
+            dots: ["Discography", "Syncs/Ads"],
+            show_date: null
         },
         {
             title: "Phabo - The Phabo Show (feat. Alex Vaughn)",
@@ -100,7 +110,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/75y79gETt48VW0kz8Jxorg?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Cautious Clay - Karma & Friends",
@@ -108,7 +119,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/1ugvFLfVoBSIyLam35yATm?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Cautious Clay - High Risk Travel",
@@ -116,7 +128,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/7amF28uDwTmWvTovscM5hH?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Cautious Clay & Saba - Strange Love",
@@ -124,7 +137,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/0dgehlr08kKoyl2nG7Dhv4?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Cautious Clay - Why Is Your Clay So Cautious?",
@@ -132,7 +146,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/2QokcoxHFBjJ5WYBzlHUcP?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Salem Ilese - Romeo & Juliet",
@@ -140,7 +155,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/4MJ7iAgcQPrLPto0dePe0R?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Har - Take Off (feat. HXNS)",
@@ -148,7 +164,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/6r0Za4t5XhD7TNCDHz9XDy?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Healy - Everything’s Fine",
@@ -156,7 +173,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/1hQM22L8FSThJB5drLpfQs?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "SIR HANS - LIANA",
@@ -164,7 +182,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/6IEOdEbUDQHuEnFa1igq7P?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Elujay & J.Robb - Lady (feat. Kyle Dion)",
@@ -172,7 +191,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/05jASrXO0rxvbhI1CJRtEz?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Siaira Shawn & HXNS - Islands (HXNS Remix)",
@@ -180,7 +200,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/04uJPwa8HTztqFbR8DPBtb?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "Ruel - say it over (feat. Cautious Clay)",
@@ -188,7 +209,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/4jSE5cAaa5rwTyhDSXfwQN?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "HXNS & Lucid Monday - okaywegetit",
@@ -196,7 +218,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/2cBQwDBcQjk2m49wzfeFZH?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "LLusion, Cautious Clay & HXNS - Sad4good",
@@ -204,7 +227,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/6iQffhfYAtLKvgyr2flNK7?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null
         },
         {
             title: "James Vincent McMorrow - Headlights",
@@ -212,7 +236,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/30ip6JBD07Pf1eBfHqXosG?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Cautious Clay, Remi Wolf & Sophie Meiers - Cheesin’ (feat. Still Woozy, Claud, Melanie Faye & HXNS)",
@@ -220,7 +245,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/6lIRYe72fn1pf7TNqfI0ul?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 280,
             description: "Charity track with 100% of net proceeds going to The Recording Academy’s MusiCares COVID & LA Fire Relief Funds",
-            dots: ["Discography", "Experiences"]
+            dots: ["Discography", "Experiences"],
+            show_date: null,
         },
         {
             title: "Cautious Clay, Raedio & Alex Isley - Reaching",
@@ -228,7 +254,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/4eLhCEYdlCTfSUXqUWsYoT?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 233,
             description: "Featured in HBO’s Insecure",
-            dots: ["Discography", "Syncs/Ads"]
+            dots: ["Discography", "Syncs/Ads"],
+            show_date: null,
         },
         {
             title: "Kyle Dion - Time Heals, Just Not Quick Enough",
@@ -236,7 +263,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/6SX6R1LaIIGquncM8UZYS0?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Sophie Meiers - come ovr",
@@ -244,7 +272,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/01PN1v5FRjaIZsjzK0c6DV?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Berel - Before You Go",
@@ -252,7 +281,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/1lZwzcyn8sTPnI0Wk5Xh4t?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Sophie Meiers - x-ray vision",
@@ -260,7 +290,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/10zrF631IEJn7uKmVqGqjB?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "E SENS - BOBOS MOTEL",
@@ -268,7 +299,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/37bA7S1fgKIiplXcmaSKmG?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Jarami - Post Mates (feat. Cautious Clay)",
@@ -276,7 +308,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/2zMaLos1Y3SF5kkODAG8QW?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Elujay - Champagne Galore",
@@ -284,7 +317,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/4m86x5hD8IHUYsuxiUPbsz?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Elujay - Starchild",
@@ -292,7 +326,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/4Ku4jFPD4J7UxdjG0xpjPf?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 247,
             description: "Featured in Peacock’s Bel Air, Netflix’s Dear White People & USA Network’s Queen of the South",
-            dots: ["Discography", "Syncs/Ads"]
+            dots: ["Discography", "Syncs/Ads"],
+            show_date: null,
         },
         {
             title: "Cautious Clay - Blood Type (HXNS Remix)",
@@ -300,7 +335,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/7CgGaeMSlcsZGimw32JAOC?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 230,
             description: "Featured in Paramount Pictures’ Spontaneous",
-            dots: ["Discography", "Syncs/Ads"]
+            dots: ["Discography", "Syncs/Ads"],
+            show_date: null,
         },
         {
             title: "Cautious Clay - Silos (HXNS Remix)",
@@ -308,7 +344,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/5TAkI1vR0Zatnz0N0hoYpx?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Abhi The Nomad & goodboy noah - Terminal",
@@ -316,7 +353,8 @@ const Timeline = () => {
             embed: <iframe frameBorder="0" src="https://open.spotify.com/embed/track/1SbqsL5hQ9oIAM3W0JVLbb?utm_source=generator" width="100%" height="152"   allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>,
             height: 218,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Cautious clay - blood type (HXNS remix)",
@@ -324,7 +362,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/473209011&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "luh",
@@ -332,7 +371,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/418614140&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "oooooohhh",
@@ -340,7 +380,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339888669&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "sunday, august 27",
@@ -348,7 +389,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339756151&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Slide (w/ j.robb)",
@@ -356,7 +398,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/323004511&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Tee",
@@ -364,7 +407,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/317102858&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Wishes",
@@ -372,7 +416,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307798100&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Closer (feat. Chase Thomas)",
@@ -380,7 +425,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/303452856&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Sunday nov. 20",
@@ -388,7 +434,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/294023752&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },      
         {
             title: "November rain",
@@ -396,7 +443,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293886712&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Precious",
@@ -404,7 +452,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/290193705&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Sunday oct. 2",
@@ -412,7 +461,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/285732779&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Underneath it all (demo)",
@@ -420,7 +470,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/280695248&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Crazy",
@@ -428,7 +479,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/274596325&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Study break",
@@ -436,7 +488,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/268191664&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "showstoppin",
@@ -444,7 +497,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/265801548&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Lightheaded",
@@ -452,7 +506,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/230732221&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "LIFTED",
@@ -460,7 +515,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/220762552&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Days spent",
@@ -468,7 +524,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/219586986&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Rockdaboat",
@@ -476,7 +533,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/219583872&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         }, 
         {
             title: "U & I",
@@ -484,7 +542,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/218646496&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },     
         {
             title: "Playground",
@@ -492,7 +551,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215812412&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },     
         {
             title: "You could bet that",
@@ -500,7 +560,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/208716164&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },     
         {
             title: "Pch",
@@ -508,7 +569,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/204289545&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },     
         {
             title: "Money (feat. Masego)",
@@ -516,7 +578,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/203375668&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },     
         {
             title: "Chill with me",
@@ -524,7 +587,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/195790924&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },     
         {
             title: "round$",
@@ -532,7 +596,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/192392259&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },     
         {
             title: "5k double feature",
@@ -540,7 +605,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/190346245&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },      
         {
             title: "Midnight",
@@ -548,7 +614,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/183847685&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "One-off vacation",
@@ -556,7 +623,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/182946980&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Wavezzz",
@@ -564,7 +632,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/181303225&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Ride",
@@ -572,7 +641,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/180659878&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Places",
@@ -580,7 +650,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179584616&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },      
         {
             title: "Player",
@@ -588,7 +659,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/179111967&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Good evening",
@@ -596,7 +668,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/177925453&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Blue",
@@ -604,7 +677,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/175415797&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Work",
@@ -612,7 +686,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/174680920&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Yikes",
@@ -620,7 +695,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/174191753&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Retrace",
@@ -628,7 +704,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/173400160&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },   
         {
             title: "Do not",
@@ -636,7 +713,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/168257142&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },  
         {
             title: "San Francisco",
@@ -644,7 +722,8 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/158197530&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
+            dots: ["Discography"],
+            show_date: null,
         },
         {
             title: "Sunday",
@@ -652,8 +731,180 @@ const Timeline = () => {
             embed: <iframe loading="lazy" width="100%" height="166" scrolling="no" frameBorder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/156593887&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>,
             height: 220,
             description: null,
-            dots: ["Discography"]
-        },           
+            dots: ["Discography"],
+            show_date: null,
+        },
+        {
+            title: "RepairPal",
+            date: "July 31, 2023",
+            embed: <iframe loading="lazy" src="https://player.vimeo.com/video/601989108?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="166" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Meet the new RepairPal Estimator"></iframe>,
+            height: 220,
+            description: null,
+            dots: ["Syncs/Ads"],
+            show_date: "2021-2023",
+        },
+        {
+            title: "RHUDE SS25 Social Promo",
+            date: "July 31, 2024",
+            embed: null,
+            height: 220,
+            description: "Worked on a set of 8 original compositions for RHUDE’s SS25 social media campaigns.",
+            dots: ["Syncs/Ads"],
+            show_date: "July 2024",
+        },
+        {
+            title: "TOMBOGO x White Claw x Highsnobiety",
+            date: "September 8, 2023",
+            embed: null,
+            height: 220,
+            description: "Produced original music for social media content promoting these three brands’ collaboration for NYFW 2023.",
+            dots: ["Syncs/Ads"],
+            show_date: null,
+        },
+        {
+            title: "Red Bull Streetstyle: Caitlyn Schrepfer",
+            date: "Feb 12, 2022",
+            embed: <iframe src="https://player.vimeo.com/video/676701560?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="100%" height="255" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Red Bull - Streetstyle"></iframe>,
+            height: 310,
+            description: "",
+            dots: ["Syncs/Ads"],
+            show_date: null,
+        },   
+        {
+            title: "Cheesin' for Charity",
+            date: "Feb 28, 2025",
+            embed: null,
+            height: 220,
+            description: "Co-produced and co-wrote the charity track “Cheesin'” alongside Cautious Clay, reaching out to our networks to curate a roster of emerging artists. Partnered with Slowplay, Republic Records, and the Recording Academy to formalize the campaign and rollout, raising over $175K for MusiCares COVID Relief. As of January 2024, 100% of future profits from the track will be going to the MusiCares Wildfire Disaster Relief.",
+            dots: ["Experiences"],
+            show_date: "May 2019 - Current",
+        },      
+        {
+            title: "Safariii Bazaar January 2025",
+            date: "January 26, 2025",
+            embed: null,
+            height: 220,
+            description: "Closing DJ set for the Oakland art collective’s monthly night market.",
+            dots: ["Experiences"],
+            show_date: null,
+        }, 
+        {
+            title: "TOMBOGO New York Fashion Week 2024",
+            date: "Sep 6, 2024",
+            embed: <iframe width="100%" height="255" src="https://www.youtube.com/embed/Z7_V_LyugyY?si=1nMpCCAlbSdHaurz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>,
+            height: 360,
+            description: "Led music production, working with designers and musicians to craft a soundscape highlighting the collection’s themes of futurism, technology, and modularity. Curated and DJed a live set, collaborating with production teams to synchronize music, lighting, and timing for a cohesive and impactful experience.",
+            dots: ["Experiences"],
+            show_date: "July 2024 - Sep 2024",
+        },     
+        {
+            title: "Kota Beat Tape 2 Release Party",
+            date: "July 18, 2024",
+            embed: null,
+            height: 220,
+            description: "DJ set at the release party for Dakota Lim’s second beat tape.",
+            dots: ["Experiences"],
+            show_date: null,
+        },     
+        {
+            title: "Prod. Davis Seminar: HXNS",
+            date: "October 19, 2023",
+            embed: null,
+            height: 220,
+            description: "I was invited by UC Davis’ (my alma mater!) music production club to discuss my journey navigating the music industry and production techniques.",
+            dots: ["Experiences"],
+            show_date: null,
+        },    
+        {
+            title: "Dekopon! Magazine Issue 3",
+            date: "August 31, 2023",
+            embed: null,
+            height: 220,
+            description: "Modeled and provided wardrobe.",
+            dots: ["Experiences"],
+            show_date: null,
+        },     
+        {
+            title: "TOMBOGO Paris Fashion Week 2023",
+            date: "June 22, 2023",
+            embed: <iframe loading="lazy" width="100%" height="255" src="https://www.youtube.com/embed/McJDf8A_JpM?si=Y1wQbnbdxaBoYwKG&amp;start=346" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>,
+            height: 310,
+            description: "",
+            dots: ["Experiences"],
+            show_date: "May 2023 - June 2023",
+        },     
+        {
+            title: "Elujay - Ratrace (Music Video)",
+            date: "Jan 31, 2022",
+            embed: <iframe loading="lazy" width="100%" height="255" src="https://www.youtube.com/embed/FC0yrSRM3ZY?si=e5HuLyXRZ_qHcKol" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>,
+            height: 332,
+            description: "Provided wardrobe and styling consultation for Elujay’s music video for his single Ratrace, which currently sits at 128K views on YouTube.",
+            dots: ["Experiences"],
+            show_date: null,
+        },     
+        {
+            title: "Styling Consultant for Cautious Clay",
+            date: "Nov 18, 2022",
+            embed: null,
+            height: 220,
+            description: "Provided styling consulting for photoshoot featured in The Independent.",
+            dots: ["Experiences"],
+            show_date: "Dec 2021 - Jan 2022",
+        },     
+        {
+            title: "Madeintheurl: Talkintheurl S1E5: HXNS",
+            date: "March 14, 2021",
+            embed: <iframe loading="lazy" width="100%" height="255" src="https://www.youtube.com/embed/3Q51L9dGfkc?si=UexEP3niIJgQfdCo" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>,
+            height: 330,
+            description: "An interview with Chris Chance, award-winning copywriter and founder of Madeintheurl.",
+            dots: ["Experiences"],
+            show_date: null,
+        },     
+        {
+            title: "Concert For A Cause",
+            date: "June 26, 2020",
+            embed: null,
+            height: 220,
+            description: "Performed on the keys/synth alongside artists Eileen Shoji and Coldwaterchris for a digital fundraiser in support of Challenger Slate candidates Elisha Crader and Lacei Amodei for Hayward City Council campaign.",
+            dots: ["Experiences"],
+            show_date: null,
+        },     
+        {
+            title: "Elujay & Friends @ The New Parish",
+            date: "February 8, 2019",
+            embed: null,
+            height: 220,
+            description: "Performed an opening DJ set in support of Elujay.",
+            dots: ["Experiences"],
+            show_date: null,
+        },     
+        {
+            title: "Tom Misch US DJ Tour @ 1015 Folsom",
+            date: "June 3, 2017",
+            embed: null,
+            height: 220,
+            description: "Performed an opening DJ set in support of Tom Misch at one of SF’s most iconic venues.",
+            dots: ["Experiences"],
+            show_date: null,
+        },     
+        {
+            title: "HGMNY & First Ear Present: Soulection’s Zikomo & Kronika @ F8",
+            date: "April 8, 2017",
+            embed: null,
+            height: 220,
+            description: "Performed a DJ set in support of Soulection’s Zikomo & Kronika.",
+            dots: ["Experiences"],
+            show_date: null,
+        },     
+        {
+            title: "HGMNY & First Ear Present: Flamingosis @ F8",
+            date: "Dec 10, 2016",
+            embed: null,
+            height: 220,
+            description: "My debut DJ set at F8 in support of Flamingosis.",
+            dots: ["Experiences"],
+            show_date: null,
+        },                                                                                                                                                        
     ]
 
     const sorted_data = data.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf())
@@ -685,6 +936,7 @@ const Timeline = () => {
                                 description={item.description}
                                 dots={item.dots}
                                 check={check}
+                                show_date={item.show_date}
                             />
                         )
                     })}

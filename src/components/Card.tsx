@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom'
 
 interface CardProps {
     direction: string
-    embed: ReactNode
+    embed: ReactNode | null
     title: string
     date: string
     height: number
     description: string | null
     dots: Array<string>
     check: boolean
+    show_date: string | null
 }
 
 interface DotProps {
@@ -46,7 +47,7 @@ const Dot = ({name} : DotProps) => {
     )
 }
 
-const Card = ({direction, embed, title, date, height, description, dots, check} : CardProps) => {
+const Card = ({direction, embed, title, date, height, description, dots, check, show_date} : CardProps) => {
     const [show, setShow] = useState(false)
     const toggle = () => {
         setShow(!show)
@@ -77,7 +78,10 @@ const Card = ({direction, embed, title, date, height, description, dots, check} 
         }}>
             <div>{embed}</div>
             <strong className="card-title">{title}</strong>
-            <div className="card-date">{date}</div>
+            {show_date
+                ? <div className="card-date">{show_date}</div>
+                : <div className="card-date">{date}</div>
+            }
             <div className="card-description">{description}</div>
             <div style={{
                 display: 'flex',
