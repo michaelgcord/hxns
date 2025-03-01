@@ -8,12 +8,46 @@ interface CardProps {
     date: string
     height: number
     description: string | null
+    dots: Array<string>
     check: boolean
 }
 
-const Card = ({direction, embed, title, date, height, description, check} : CardProps) => {
-    const [show, setShow] = useState(false)
+interface DotProps {
+    name: string
+}
+
+const Dot = ({name} : DotProps) => {
+    let route = "/"
+    let color
+    if (name === "Discography") {
+        color = "#ff0000"
+        route = "/discography"
+    } else if (name === "Experiences") {
+        color = "#015bef"
+        route = "/experiences"
+    } else if (name === "Syncs/Ads") {
+        color = "#f97700"
+        route = "/syncs-ads"
+    }
     const [isHovering, setIsHovering] = useState(false)
+
+    return (
+        <div style={{display: 'flex', justifyContent: 'end', alignItems: 'center'}}>
+        {isHovering
+            ?  <div style={{fontSize: '12px', paddingRight: '4px', height: '10px', marginTop: '-9px'}}>{name}</div>
+            : <></>
+        }
+        <Link to={route} 
+            onMouseEnter={() => {setIsHovering(true)}} 
+            onMouseLeave={() => {setIsHovering(false)}} 
+            className="card-content-dot" style={{backgroundColor: color}}>
+        </Link>             
+        </div>
+    )
+}
+
+const Card = ({direction, embed, title, date, height, description, dots, check} : CardProps) => {
+    const [show, setShow] = useState(false)
     const toggle = () => {
         setShow(!show)
     }
@@ -36,7 +70,7 @@ const Card = ({direction, embed, title, date, height, description, check} : Card
                 : "52%"
         }}/>
         <div className="card-content" style={{
-            height: height,
+            height: 'fit-content',
             left: direction === 'left'
                 ? "-223%"
                 : "87%"
@@ -47,20 +81,18 @@ const Card = ({direction, embed, title, date, height, description, check} : Card
             <div className="card-description">{description}</div>
             <div style={{
                 display: 'flex',
-                width: '100%'
+                width: '100%',
             }}>
                 <div className="card-spacer"></div>
-                <Link to="/releases" 
-                    onMouseEnter={() => {setIsHovering(true)}} 
-                    onMouseLeave={() => {setIsHovering(false)}} 
-                    className="card-content-dot">
-                    {isHovering ? 
-                        <div className="card-hover">
-                            Discography
-                        </div>
-                        : <></>
-                    }
-                </Link>
+                <div>
+                    {dots.map((item, index) => {
+                        return (
+                            <div key={index}>
+                                <Dot name={item}/>
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
         </div>
         <div className="card-cover" style={{
