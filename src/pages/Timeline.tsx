@@ -656,7 +656,7 @@ const Timeline = () => {
         },           
     ]
 
-    const sorted_data = data.sort((a, b) => new Date(b.date) - new Date(a.date))
+    const sorted_data = data.sort((a, b) => new Date(b.date).valueOf() - new Date(a.date).valueOf())
 
     const [check, setCheck] = useState(false)
 
