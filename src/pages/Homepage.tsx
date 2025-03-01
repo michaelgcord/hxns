@@ -4,7 +4,6 @@ import { Link } from "react-router-dom"
 const Homepage = () => {
     const quotes = [
         "Like a drake and josh theme song... I found a way. ",
-        "Bad b****es love Hans. ",
         "Jajabooboo. ",
     ]
 
