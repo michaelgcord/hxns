@@ -921,7 +921,7 @@ const Timeline = () => {
             <div style={{fontSize: '48px', fontWeight: '700', margin: '20px 0 30px'}}>History of Hans</div>   
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <Switch size="1" onCheckedChange={toggleCheck} />
-                <div style={{paddingLeft: '13px', fontSize: '14px'}}>Gimme everything</div>
+                <div className="gimme" style={{paddingLeft: '13px',}}>Gimme everything!</div>
             </div>
             <div>
                 <div className="timeline-line">

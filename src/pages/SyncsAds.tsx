@@ -4,7 +4,8 @@ import NavMenu from "../components/NavMenu"
 interface AdsProps {
     name: string | null
     date: string | null
-    video: Array<ReactNode> | null
+    anchor: string | null
+    // video: Array<ReactNode> | null
 }
 
 interface SyncProps {
@@ -25,45 +26,23 @@ const Sync = ({name, date, song, anchor} : SyncProps) => {
     )
 }
 
-const Ad = ({name, date, video} : AdsProps) => {
+const Ad = ({name, date, anchor} : AdsProps) => {
     return (
         <>
             <div style={{width: '100%', height: '1px', backgroundColor: 'black', opacity: '10%', margin: '30px 0'}}></div>
-            <div style={{fontWeight: '700', fontSize: '18px'}}>{name}</div>
-            <div style={{fontSize: '14px', fontWeight: '400', marginTop: '-6px'}}>{date}</div>
-            <div>
-                {video ? video.map((item, index) => {
-                    return (
-                        <div style={{paddingTop: '10px'}} key={index}>
-                            {item}
-                        </div>
-                    )
-                }) : <></>}
+            <div style={{fontWeight: '700', fontSize: '18px', lineHeight: '20px', marginBottom: '3px'}}>
+                {anchor
+                    ? <a style={{cursor: "pointer"}} href={anchor}>{name}</a>
+                    : <div>{name}</div>
+                }
             </div>
+            <div style={{fontSize: '14px', fontWeight: '400', marginTop: '-6px'}}>{date}</div>
         </>
     )
 }
 
 const SyncsAds = () => {
     const syncs = [
-        {
-            name: "Insecure, Ep. 401 “Lowkey Feelin’ Myself”",
-            date: "April 12, 2020",
-            song: "Reaching",
-            anchor: "https://www.imdb.com/title/tt8956954/",
-        },
-        {
-            name: "Bel Air, Ep. 110 “Where To?”",
-            date: "March 31, 2022",
-            song: "Starchild",
-            anchor: "https://www.imdb.com/title/tt18250866/?ref_=ttep_ep_10",
-        },
-        {
-            name: "Dear White People, Ep. 305 “Chapter V”",
-            date: "August 2,  2019",
-            song: "Starchild",
-            anchor: "https://www.imdb.com/title/tt8598404/?ref_=ttep_ep_5",
-        },
         {
             name: "Run The World, Ep. 208 “No Regrets”",
             date: "July 14, 2023",
@@ -77,10 +56,10 @@ const SyncsAds = () => {
             anchor: "https://www.imdb.com/title/tt18484516/?ref_=ttep_ep_2",
         },
         {
-            name: "Queen of the South, Ep. 404 “La Maldicion”",
-            date: "June 27, 2019",
+            name: "Bel Air, Ep. 110 “Where To?”",
+            date: "March 31, 2022",
             song: "Starchild",
-            anchor: "https://www.imdb.com/title/tt1064899/?ref_=ext_shr_lnk",
+            anchor: "https://www.imdb.com/title/tt18250866/?ref_=ttep_ep_10",
         },
         {
             name: "Spontaneous (2020)",
@@ -88,43 +67,67 @@ const SyncsAds = () => {
             song: "Blood Type (HXNS Remix)",
             anchor: "https://www.imdb.com/title/tt5774062/?ref_=ext_shr_lnk",
         },                                                
+        {
+            name: "Insecure, Ep. 401 “Lowkey Feelin’ Myself”",
+            date: "April 12, 2020",
+            song: "Reaching",
+            anchor: "https://www.imdb.com/title/tt8956954/",
+        },
+        {
+            name: "Dear White People, Ep. 305 “Chapter V”",
+            date: "August 2,  2019",
+            song: "Starchild",
+            anchor: "https://www.imdb.com/title/tt8598404/?ref_=ttep_ep_5",
+        },
+        {
+            name: "Queen of the South, Ep. 404 “La Maldicion”",
+            date: "June 27, 2019",
+            song: "Starchild",
+            anchor: "https://www.imdb.com/title/tt1064899/?ref_=ext_shr_lnk",
+        },
     ]
 
     const ads = [
         {
             name: "RHUDE SS25 Social Promo (unreleased)",
             date: "July 2024",
-            video: null,
+            anchor: null,
         },
         {
             name: "TOMBOGO x White Claw x Highsnobiety",
             date: "September 8, 2023",
-            video: null,
-        },
-        {
-            name: "Porsche - Drive2Extremes: Behind the Scenes #2 - The Driving Force",
-            date: "June 18, 2021",
-            video: [<iframe width="560" height="315" src="https://www.youtube.com/embed/KqB4dVfbJFs?si=FjCyOAOsQCqvXgh_" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>],
-        },
-        {
-            name: "RepairPal",
-            date: "2021-2023",
-            video: [
-                <iframe src="https://player.vimeo.com/video/601989108?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="550" height="309" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Meet the new RepairPal Estimator"></iframe>,
-                <iframe src="https://player.vimeo.com/video/571898703?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="550" height="309" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="How can RepairPal help my dealership grow?"></iframe>,
-                <iframe src="https://player.vimeo.com/video/519822139?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="550" height="309" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="How can RepairPal help my shop grow?"></iframe>                
-            ],
-        },
-        {
-            name: "AACI: Youth In Technology Animated Spots",
-            date: "Feb 1, 2022",
-            video: [<iframe src="https://player.vimeo.com/video/672501008?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="550" height="880" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Youth in Technology Animated Spots"></iframe>],
+            anchor: null,
         },
         {
             name: "Red Bull Streetstyle: Caitlyn Schrepfer",
             date: "Feb 12, 2022",
-            video: [<iframe src="https://player.vimeo.com/video/676701560?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="550" height="309" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Red Bull - Streetstyle"></iframe>],
+            anchor: "https://vimeo.com/676701560",
         },                                        
+        {
+            name: "AACI: Youth In Technology Animated Spots",
+            date: "Feb 1, 2022",
+            anchor: "https://vimeo.com/672501008",
+        },
+        {
+            name: "Porsche - Drive2Extremes: Behind the Scenes #2 - The Driving Force",
+            date: "June 18, 2021",
+            anchor: "https://www.youtube.com/watch?v=KqB4dVfbJFs&ab_channel=Porsche"
+        },
+        {
+            name: "RepairPal Estimator Video",
+            date: "Sep 10, 2021",
+            anchor: "https://vimeo.com/601989108",
+        },
+        {
+            name: "RepairPal Dealership Video",
+            date: "July 6, 2021",
+            anchor: "https://vimeo.com/571898703",
+        },
+        {
+            name: "RepairPal Shop Video",
+            date: "Mar 4, 2021",
+            anchor: "https://vimeo.com/519822139",
+        },                
     ]
 
     return (
@@ -156,7 +159,7 @@ const SyncsAds = () => {
                                     <Ad
                                         name={item.name}
                                         date={item.date}
-                                        video={item.video}
+                                        anchor={item.anchor}
                                     />
                                 </div>
                             )

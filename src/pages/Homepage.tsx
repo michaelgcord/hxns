@@ -25,22 +25,22 @@ const Homepage = () => {
                 })}
                 </span>                
             </div>
-            <img src={photo} alt="" height={500} style={{padding: "80px 0"}}/>
+            <img src={photo} alt="" height={500} style={{padding: "51px 0"}}/>
             <div className="homepage-sub-header">
                 <div className="homepage-sub-header-item unselectable">
-                    <Link to="/timeline">TIMELINE</Link>
+                    <Link to="/timeline">Timeline</Link>
                 </div>
                 <div className="homepage-sub-header-item unselectable">
-                    <Link to="/discography">DISCOGRAPHY</Link>
+                    <Link to="/discography">Discography</Link>
                 </div>
                 <div className="homepage-sub-header-item unselectable">
-                    <Link to="/about">ABOUT</Link>
+                    <Link to="/about">About</Link>
                 </div>
                 <div className="homepage-sub-header-item unselectable">
-                    <Link to="/experiences">EXPERIENCES</Link>
+                    <Link to="/experiences">Experiences</Link>
                 </div>
                 <div className="homepage-sub-header-item unselectable">
-                    <Link to="/syncs-ads">SYNCS/ADS</Link>
+                    <Link to="/syncs-ads">Syncs/Ads</Link>
                 </div>
             </div>                
         </div>

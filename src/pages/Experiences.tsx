@@ -20,7 +20,7 @@ const Entry = ({name, date, anchor, description, video} : EntryProps) => {
                 }
             </div>
             <div style={{width: '100%', textAlign: 'left', fontWeight: '700', fontSize: '12px', margin: '-5px 0 18px'}}>{date}</div>
-            <div style={{width: '100%', textAlign: 'left', fontSize: '12px', marginBottom: '20px'}}>{description}</div>
+            <div style={{width: '100%', textAlign: 'left', fontSize: '12px', marginBottom: '20px', lineHeight: '15px'}}>{description}</div>
             <div>{video}</div>
         </>
     )

@@ -59,6 +59,21 @@ a {
   padding-left: 6px;
 }
 
+.nav-item:hover {
+  font-size: 15px;
+  font-family: "Jacquard 12 Charted";
+}
+
+.gimme {
+  font-family: "Jacquard 12 Charted";
+  font-size: 19px;
+}
+
+.sync-name {
+  font-family: "Jacquard 12 Charted";
+  font-size: 23px;  
+}
+
 .main-container {
   height: 100vh;
   width: 100vw;
@@ -258,4 +273,14 @@ a {
   font-weight: 500;
   font-size: 18px;
   cursor: pointer;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 4px;
+  /* transition: 1s all ease-in-out; */
+  /* font-family: "Archivo"; */
+}
+
+.homepage-sub-header-item:hover {
+  font-size: 24px;
+  font-family: "Jacquard 12 Charted";
 }
